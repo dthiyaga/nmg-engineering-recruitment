@@ -7,7 +7,7 @@ Thank you for taking the time to do our technical assessment. This assessment sh
 
 ## Submissions
 
-Please referr to the root `README.md` file at the root of this project for submission details.
+Please refer to the root `README.md` file at the root of this project for submission details.
 
 ## Technical Test
 
