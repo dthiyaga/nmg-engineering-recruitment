@@ -53,18 +53,18 @@ Assume the following infrastructure exists:
 * Multi-Availability Zone
   * One private and public subnet for each AZ
 * Internet gateway
-* Nat gateway.
+* Nat gateway
 
 ### Success
 
 To test if this work is successful, two curl commands can be run:
 
 ```
-curl -H 'test1.foo.io' http://{endpoint}
-curl -H 'test2.foo.io' http://{endpoint}
+curl -H 'Host: test1.foo.io' http://{endpoint}
+curl -H 'Host: test2.foo.io' http://{endpoint}
 ```
 
-If the output is test1 and test2 you know you have been successful.
+If the output is `test1` and `test2` you know you have been successful.
 
 ## Technical questions
 
