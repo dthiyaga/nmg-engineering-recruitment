@@ -11,9 +11,12 @@ Please refer to the root `README.md` file at the root of this project for submis
 
 ## Technical Test
 
-Your task is to develop a repository that provisions a highly available webserver, running two different websites. This should follow AWS best practices, and leverage automation. Further requirements are below.
+Your task is to develop a repository that provisions a highly available web app, running two different websites. This should follow AWS best practices, and leverage automation. Further requirements are below.
 
-You may reference the internet, but do not work with anyone else to complete the task.
+### Note
+
+* You may reference the internet, but do not work with anyone else to complete the task
+* The term `web app` is a catch all term to leave the technology choice open to you
 
 ### Evaluation
 
@@ -26,7 +29,8 @@ With the technical test we evaluate:
 
 ### Requirements
 
-* Provision a **highly available**, and **secure** webserver, that serves two different websites
+* Provision a **highly available**, and **secure** web app, that serves two different websites
+  * The web app can use any AWS technology that completes the task's objectives
 * Follow AWS best practices, including good architecture and coding practices
 * Leverage infrastructure-as-code, and automation where possible
 * Use any tooling or language framework you wish
@@ -35,12 +39,11 @@ With the technical test we evaluate:
 * The repository should be able to provision in any region simply by changing a few parameters or variables
 * Emphasize readability, maintainability and DevOps methodologies
 * Documentation, including how to provision, should be supplied
-* The latest Amazon Linux, Amazon Linux 2, CentOs or Ubuntu AMI's may be used
 
 ### Website Details
 
-* Through automation, the project should provision, install, and configure a webserver
-* The webserver should serve two different domains, `test1.foo.io` and `test2.foo.io`
+* Through automation, the project should provision, install, and configure a web app
+* The web app should serve two different domains, `test1.foo.io` and `test2.foo.io`
 * `test1.foo.io` must return the response, `test1`
 * `test2.foo.io` must return the response, `test2`
 * Do not worry about `https` or `SSL`
