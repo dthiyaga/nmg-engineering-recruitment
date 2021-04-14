@@ -1,19 +1,19 @@
 Please scroll to the bottom of the page to find the terraform output and test results
 
 How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test, then use this as an opportunity to explain what you would add.
-Answer: I spent close to two hours to code these two web applications. If I had more time, I would have registered the nameservers on godaddy or similar domain registar so that the domain can be accesible publicly. I would have added a loadbalancer and add a couple of additional instances for each application on the loadbalancer for effective loadbalacing.
-If the web applciation is a static application, we can simple host them on s3 with Make Public option.
+**Answer: I spent close to two hours to code these two web applications. If I had more time, I would have registered the nameservers on godaddy or similar domain registar so that the domain can be accesible publicly. I would have added a loadbalancer and add a couple of additional instances for each application on the loadbalancer for effective loadbalacing.
+If the web applciation is a static application, we can simple host them on s3 with Make Public option.**
 
 
 Why did you choose the language you used for the coding test?
-I used terraform as it is known for effectly building and managing versioned infrastructure in aws and various other cloud platforms.
+**Answer : I used terraform as it is known for effectly building and managing versioned infrastructure in aws and various other cloud platforms.**
 
 What was the most useful feature that was added to the latest version of your chosen language?
-Notable new features added on Terraform 0.14 are
+**Notable new features added on Terraform 0.14 are
     Sensitive input variables and derived sensitivity
     Concise diffs by default
     Provider Dependency Lock File
-    Officially supported ARM64 releases for Linux
+    Officially supported ARM64 releases for Linux**
     
 
 
