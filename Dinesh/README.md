@@ -20,7 +20,7 @@ What was the most useful feature that was added to the latest version of your ch
     Officially supported ARM64 releases for Linux
     
 
-**Input:
+**Input:**
 >terraform apply -auto-approve -var "region=<regionname>"
 
 **Example**
