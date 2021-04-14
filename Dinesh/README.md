@@ -13,10 +13,11 @@ Why did you choose the language you used for the coding test?
 What was the most useful feature that was added to the latest version of your chosen language?
 
 **Notable new features added on Terraform 0.14 are
+
     Sensitive input variables and derived sensitivity
     Concise diffs by default
     Provider Dependency Lock File
-    Officially supported ARM64 releases for Linux**
+    Officially supported ARM64 releases for Linux
     
 
 
