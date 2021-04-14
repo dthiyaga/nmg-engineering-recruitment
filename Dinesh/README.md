@@ -65,6 +65,6 @@ Test:
 >dinesh@Dineshs-iMac Dinesh % curl http://54.152.253.146
 test1
 
-dinesh@Dineshs-iMac Dinesh % curl http://54.147.70.140 
+>dinesh@Dineshs-iMac Dinesh % curl http://54.147.70.140 
 test2
 
