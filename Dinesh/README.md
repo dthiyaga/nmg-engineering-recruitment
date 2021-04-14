@@ -22,7 +22,7 @@ What was the most useful feature that was added to the latest version of your ch
 
 
 Output:
-aws_instance.http_server[1]: Destroying... [id=i-0bc0e5a48f3805bd3]
+>aws_instance.http_server[1]: Destroying... [id=i-0bc0e5a48f3805bd3]
 aws_instance.http_server[0]: Destroying... [id=i-06768f012dcba9d3a]
 aws_instance.http_server[0]: Still destroying... [id=i-06768f012dcba9d3a, 10s elapsed]
 aws_instance.http_server[1]: Still destroying... [id=i-0bc0e5a48f3805bd3, 10s elapsed]
