@@ -25,6 +25,7 @@ What was the most useful feature that was added to the latest version of your ch
 
 **Example**
 >terraform apply -auto-approve -var "region=us-west-2"
+
 >terraform apply -auto-approve -var "region=us-east-1"
 
 Output:
