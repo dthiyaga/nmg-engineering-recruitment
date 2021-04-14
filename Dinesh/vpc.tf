@@ -19,13 +19,13 @@ resource "aws_internet_gateway" "gw" {
 }
 
 resource "aws_subnet" "public_1" {
-  availability_zone       = "us-east-1a"
+  #availability_zone       = "us-east-1a"
   vpc_id                  = aws_vpc.vpc_nmarcus.id
   map_public_ip_on_launch = true
   cidr_block              = "10.0.1.0/24"
 
   tags = {
-    Name = "public_1-demo"
+    Name = "test subnet"
   }
 }
 
@@ -38,7 +38,7 @@ resource "aws_route_table" "route-public" {
   }
 
   tags = {
-    Name = "public-route-table-demo"
+    Name = "test-route-table"
   }
 }
 

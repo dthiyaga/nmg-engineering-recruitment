@@ -5,14 +5,14 @@ provider "aws" {
 
 
 resource "aws_instance" "http_server" {
-  ami           = lookup(var.ami_id, var.region)
+  ami           = "${data.aws_ami.latest-amazon-ami.id}"
   instance_type = var.instance_type
   subnet_id     = aws_subnet.public_1.id
   count         = "${var.instance_count}"
 
   # Security group assign to instance
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
-  key_name = var.key_name
+
 
   user_data = <<EOF
     #!/bin/bash
@@ -43,4 +43,20 @@ output "public_ip_test2_foo_io" {
 
   value = aws_instance.http_server[1].public_ip
 
+}
+
+data "aws_ami" "latest-amazon-ami" {
+most_recent = true
+owners = ["amazon"]
+
+
+  filter {
+      name   = "name"
+      values = ["amzn-ami-hvm-*"]
+  }
+
+  filter {
+      name   = "virtualization-type"
+      values = ["hvm"]
+  }
 }
