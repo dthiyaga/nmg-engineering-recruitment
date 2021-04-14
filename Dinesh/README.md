@@ -21,7 +21,7 @@ What was the most useful feature that was added to the latest version of your ch
     
 
 **Input:**
->terraform apply -auto-approve -var "region=<regionname>"
+>terraform apply -auto-approve -var "region=\<regionname\>"
 
 **Example**
 >terraform apply -auto-approve -var "region=us-west-2"
