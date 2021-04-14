@@ -20,6 +20,12 @@ What was the most useful feature that was added to the latest version of your ch
     Officially supported ARM64 releases for Linux
     
 
+**Input:
+>terraform apply -auto-approve -var "region=<regionname>"
+
+**Example**
+>terraform apply -auto-approve -var "region=us-west-2"
+>>terraform apply -auto-approve -var "region=us-east-1"
 
 Output:
 >aws_instance.http_server[1]: Destroying... [id=i-0bc0e5a48f3805bd3]
