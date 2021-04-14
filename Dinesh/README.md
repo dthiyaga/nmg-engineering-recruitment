@@ -2,7 +2,7 @@ Please scroll to the bottom of the page to find the terraform output and test re
 
 How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test, then use this as an opportunity to explain what you would add.
 
-**Answer: I spent close to two hours to code these two web applications. If I had more time, I would have registered the nameservers on godaddy or similar domain registar so that the domain can be accesible publicly. I would have added a loadbalancer and add a couple of additional instances for each application on the loadbalancer for effective loadbalacing.
+**Answer: I spent close to three hours to code these two web applications. If I had more time, I would have registered the nameservers on godaddy or similar domain registar so that the domain can be accesible publicly. I would have added a loadbalancer and add a couple of additional instances for each application on the loadbalancer for effective loadbalacing.
 If the web applciation is a static application, we can simple host them on s3 with Make Public option.**
 
 
