@@ -58,7 +58,9 @@ Outputs:
   "ns-460.awsdns-57.com",
   "ns-515.awsdns-00.net",
 ])
+
 >public_ip_test1_foo_io = "184.73.83.224"
+
 >public_ip_test2_foo_io = "3.91.188.155"
 
 Test:
