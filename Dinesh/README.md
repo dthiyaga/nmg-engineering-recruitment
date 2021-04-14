@@ -52,14 +52,14 @@ Apply complete! Resources: 2 added, 2 changed, 2 destroyed.
 
 Outputs:
 
-name_server = tolist([
+>name_server = tolist([
   "ns-1442.awsdns-52.org",
   "ns-1864.awsdns-41.co.uk",
   "ns-460.awsdns-57.com",
   "ns-515.awsdns-00.net",
 ])
-public_ip_test1_foo_io = "184.73.83.224"
-public_ip_test2_foo_io = "3.91.188.155"
+>public_ip_test1_foo_io = "184.73.83.224"
+>public_ip_test2_foo_io = "3.91.188.155"
 
 Test:
 >dinesh@Dineshs-iMac Dinesh % curl http://54.152.253.146
